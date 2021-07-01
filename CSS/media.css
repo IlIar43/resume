@@ -1,0 +1,43 @@
+@media all and (max-width: 1135px) {
+
+    * {
+        margin: 0 auto 0;
+        flex-wrap: wrap;
+    }
+
+    .navbar_right {
+        display: none;
+    }
+
+    .menu__btn {
+        visibility: visible !important;
+    }
+
+    .menu__box {
+        display: block;
+        position: fixed;
+        visibility: visible;
+        top: 0;
+        right: -100%;
+        width: 100px;
+        height: 100%;
+        padding: 80px;
+        text-align: center;
+        z-index: 1;
+}
+
+    .sidebar {
+        width: 100%;
+    }  
+    
+    .sidebar img {
+        position: absolute;
+        height: 200px;
+        margin: 10% 50%;
+    }
+
+    .content {
+        width: 10%;
+        flex-wrap: wrap;
+    }
+}
